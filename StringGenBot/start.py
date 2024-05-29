@@ -22,7 +22,9 @@ Mai baat apne okaat se jayda nahi krta🍺
  
 Bhale Tamanna rakhta hu asaan chune ki🍻 
  
-Magar kissi ko girane ka irada nahi rakhta 🍷.
+Magar kissi ko girane ka irada nahi rakhta 🍷
+
+ 𝙈𝘼𝘿𝙀 𝘽𝙔 𝙑𝘼𝙎𝙃𝙐.
 
 Mᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ : [VASHU](https://t.me/Vashu23456) !""",
         reply_markup=InlineKeyboardMarkup(
