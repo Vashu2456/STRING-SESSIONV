@@ -77,7 +77,7 @@ Atleast Give A Star and Fork The Repo 🖤
 <h3 align="center">──「 ʀᴇᴘᴏ sᴛᴀᴛs 」──</h3>
 <a href="https://github.com/Vashu2456/STRING-SESSIONV"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Vashu2456&repo=STRING-SESSION&theme=chartreuse-dark"></a>
 
-<a href="https://github.com/Vashu2456/FIXXMUSICV"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Vashu2456&repo=FIXXMUSICV&theme=chartreuse-dark"></a>
+
 
 
 ### 🥵 sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ
