@@ -32,7 +32,7 @@ Mᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ : [VASHU](https://t.me/Vashu23456) !""",
                 ],
                 [
                     InlineKeyboardButton("sᴏᴜʀᴄᴇ", url="https://t.me/ALL_BOTS_SUPPORT1"),
-                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/BRANDEDKING82")
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/Vashu23456")
                 ]
             ]
         ),
