@@ -10,7 +10,8 @@ def filter(cmd: str):
 @Client.on_message(filter("start"))
 async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
-    await bot.send_message(
+    await bot.reply_photo(
+        photo="https://telegra.ph/file/3bc25abc75d13ce4656c4.jpg",
         chat_id=msg.chat.id,
         text=f"""Hᴇʏ {msg.from_user.mention}🦋,
 
