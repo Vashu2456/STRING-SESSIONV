@@ -2,12 +2,11 @@ from os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
+API_ID = int(getenv("API_ID", "19197570"))
+API_HASH = getenv("API_HASH", "0401e837796d193ec9ae6e17cb8cfbf8")
 
-API_ID = int(getenv("API_ID", "25581940"))
-API_HASH = getenv("API_HASH" , "1e80acd755ceab02b3e2a22d49b25c18")
+BOT_TOKEN = getenv("BOT_TOKEN", "7291541483:AAHHpQrh3xanO3joNs7z32Jt8umDx-XoURM")
+OWNER_ID = int(getenv("OWNER_ID", "6798074818"))
 
-BOT_TOKEN = getenv("BOT_TOKEN" , "7344614680:AAHzbJqWxPLErNB63AgOcgxSYYLyBstJT3c")
-#OWNER_ID = int(getenv("7496416021"))
-OWNER_ID = int(getenv("OWNER_ID", "7496416021"))
-MONGO_DB_URI = getenv("MONGO_DB_URI", " mongodb+srv://vobero4050:rMDlUdxhAw9MDeaO@cluster2345908.hlfgzxh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2345908")
-MUST_JOIN = getenv("MUST_JOIN", "DEMON_SQUAD_001")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps5:monivps5@cluster0.kmbq8we.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MUST_JOIN = getenv("MUST_JOIN", "TMK_MUSICCHANNEL")
