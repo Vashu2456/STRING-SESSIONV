@@ -1,26 +1,37 @@
-import asyncio
-import importlib
+import config
+import time
+import logging
+from pyrogram import Client, idle
+from pyromod import listen  # type: ignore
+from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
-from pyrogram import idle
+logging.basicConfig(
+    level=logging.WARNING, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
 
-from StringGen import LOGGER, Vashu
-from StringGen.modules import ALL_MODULES
+logging.getLogger("pymongo").setLevel(logging.ERROR)
 
-
-async def string_boot():
-    try:
-        await string.start()
-    except Exception as ex:
-        LOGGER.error(ex)
-        quit(1)
-
-    for all_module in ALL_MODULES:
-        importlib.import_module("StringGen.modules." + all_module)
-
-    LOGGER.info(f"@{Vashu.username} Started.")
-    await idle()
+# Initialize the Client
+app = Client(
+    "Anonymous",
+    api_id=config.API_ID,
+    api_hash=config.API_HASH,
+    bot_token=config.BOT_TOKEN,
+    in_memory=True,
+    plugins=dict(root="StringGenBot"),
+)
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(string_boot())
-    LOGGER.info("Stopping String Gen Bot...")
+    print("𝖲𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝖸𝐨𝐮𝐫 𝖲𝐭𝐫𝐢𝐧𝐠 𝖡𝐨𝐭...")
+    try:
+        app.start()
+    except (ApiIdInvalid, ApiIdPublishedFlood):
+        raise Exception("Your API_ID/API_HASH is not valid.")
+    except AccessTokenInvalid:
+        raise Exception("Your BOT_TOKEN is not valid.")
+    uname = app.get_me().username
+    print(f"@{uname} 𝖲𝖳𝖠𝖱𝖳𝖤𝖣 𝖲𝖴𝖢𝖤𝖲𝖲𝖥𝖴𝖫𝖫𝖸. 𝖬𝖠𝖣𝖤 𝖡𝖸 @demon_squad_help_desk 🤗")
+    idle()
+    app.stop()
+    print("𝗕𝗢𝗧 𝗦𝗧𝗢𝗣𝗣𝗘𝗗!")
