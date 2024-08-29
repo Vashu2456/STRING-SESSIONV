@@ -26,15 +26,15 @@ Magar kissi ko girane ka irada nahi rakhta 🍷
 
  𝙈𝘼𝘿𝙀 𝘽𝙔 𝙑𝘼𝙎𝙃𝙐.
 
-Mᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ : [VASHU](https://t.me/Vashu23456) !""",
+Mᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ : [VASHU](https://t.me/demon_squad_help_desk) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("sᴏᴜʀᴄᴇ", url="https://t.me/ALL_BOTS_SUPPORT1"),
-                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/Vashu23456")
+                    InlineKeyboardButton("sᴏᴜʀᴄᴇ", url="https://t.me/demon_squad_help_desk"),
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/DEMONSQUAD001")
                 ]
             ]
         ),
